@@ -5,7 +5,7 @@ import {
   LoginSuccess, StopTrackingSuccess,
   LoginFailure, StopTrackingFailure
 } from "./actionType";
-const apiUrl = process.env.REACT_APP_API_URL;
+const apiUrl = "https://zerosec-backend.onrender.com";
 
 export const SignupUser = (userData) => {
   return (dispatch) => {
